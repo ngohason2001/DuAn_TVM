@@ -1,0 +1,22 @@
+.recent-project a,
+.recent-project h5 {
+    color: #00a2ff;
+}
+
+.proprietary .overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.proprietary .card:hover .overlay {
+    display: flex !important;
+    cursor: pointer;
+}
+.form-contact textarea,
+.form-contact input {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.form-contact textarea::placeholder,
+.form-contact input::placeholder {
+    color: #999;
+    font-style: italic;
+}

@@ -1,0 +1,26 @@
+.banner-title{
+    width: 42%;
+    height: 20%;
+    top: 24%;
+    left: 10%;
+    text-align: justify;
+   
+}
+.banner-title p{
+    width: 90%;
+}
+/* WHAT IS BLOCKCHAIN? */
+
+.blockchain{
+    width: 86%;
+    font-weight: 600;
+}
+.block-content li{
+    padding-bottom: 1rem;
+    list-style: disc;
+    text-align: justify;
+}
+/* REASONS YOU SHOULD BE CONSIDERING BLOCKCHAIN */
+.reasons h3{
+    font-weight: 600;
+}

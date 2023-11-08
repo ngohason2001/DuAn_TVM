@@ -1,0 +1,133 @@
+/* .img-logo {
+    margin-left: 12.5rem;
+} */
+header {
+    background-image: url("../img/home/Banner_home2.png");
+    width: 100%;
+    height: 880px;
+    display: flex;
+}
+
+.nav {
+    /* margin: 0 12.5rem; */
+    position: relative;
+    width: calc(100% - 25rem);
+    display: flex;
+}
+
+.nav-menu {
+    position: absolute;
+    right: 0;
+    font-weight: 500;
+    display: flex;
+}
+
+.nav-menu a {
+    color: white;
+}
+
+/* .img-bg{
+    position: absolute;
+} */
+.banner-title {
+    width: 32.5rem;
+    height: 250px;
+    position: absolute;
+    top: 30%;
+    left: 12.5rem;
+}
+
+.banner-title h1,
+.banner-title p {
+    color: white;
+}
+
+.button-title {
+    border: none;
+    width: 155px;
+    height: 42px;
+    background-color: white;
+    color: #1863efd0;
+    font-weight: 700;
+}
+
+/* section */
+section {
+    position: relative;
+}
+
+/* .content-title{
+    width: 965px;
+} */
+.title-box h1,
+.title-box pre {
+    color: #023c8c;
+}
+
+.title-box h1 {
+    font-weight: 700;
+}
+
+.title-box {
+    width: 58rem;
+}
+
+.main-content {
+    height: max-content;
+    background-color: #f3f3f3;
+}
+
+.box-content p {
+    color: #023c8c;
+    font-weight: 500;
+}
+
+/* research */
+.research {
+    height: 900px;
+}
+
+.research .card-1 {
+    left: 12.5rem;
+}
+
+.research .card-2 {
+    top: 22rem;
+    right: 24rem;
+}
+
+.research .img {
+    right: 12.5rem;
+}
+
+/* OUR PARTNER */
+.ourpartner{
+    font-weight: 500;
+    height: max-content;
+}
+
+.list-card .card-1 {
+    background: rgb(130, 139, 255);
+    background: linear-gradient(145deg, rgba(130, 139, 255, 1) 0%, rgba(33, 4, 254, 1) 100%);
+}
+
+.list-card .card-2 {
+    background: rgb(151, 18, 251);
+    background: linear-gradient(145deg, rgba(151, 18, 251, 1) 0%, rgba(210, 1, 69, 1) 100%);
+}
+
+.list-card .card-3 {
+    background: rgb(249, 234, 70);
+    background: linear-gradient(145deg, rgba(249, 234, 70, 1) 0%, rgba(32, 176, 119, 1) 100%);
+}
+.list-card .card-1:hover button,
+.list-card .card-2:hover button,
+.list-card .card-3:hover button{
+    display: block !important;
+}
+.list-card .card-1 button:hover,
+.list-card .card-2 button:hover,
+.list-card .card-3 button:hover{
+    background-color: white !important;
+    color: rgba(0, 0, 0, 1) !important;
+}
